@@ -124,5 +124,3 @@ Feel free to submit a pull request or open an issue to discuss improvements.
 This project is free to use, modify, and distribute without restrictions.
 
 ---
-
-This `README.md` provides a clear, structured guide to the project, ensuring users can understand its purpose, set it up, and contribute to its development.

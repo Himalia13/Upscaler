@@ -1,0 +1,27 @@
+{
+    "image": {
+        "max_pixels": null,
+        "supported_formats": [".png", ".jpg", ".jpeg", ".bmp", ".tif", ".tiff"]
+    },
+    "cuda": {
+        "empty_cache_on_start": true,
+        "alloc_conf": "max_split_size_mb:128"
+    },
+    "processing": {
+        "chunk_height": 800,
+        "tile_size": 400,
+        "overlap": 32,
+        "model": {
+            "path": "RealESRGAN_x4plus.pth",
+            "scale": 4,
+            "num_feat": 64,
+            "num_block": 23,
+            "num_grow_ch": 32,
+            "tile_pad": 10,
+            "pre_pad": 0
+        }
+    },
+    "output": {
+        "create_dirs": true
+    }
+}
